@@ -4,6 +4,8 @@ A ComfyUI custom node that computes a **visual saliency map** from a color image
 
 This node extends the classic Spectral Residual (SR) saliency approach by replacing the simple box-filter spectral prior with an **adaptive, color-aware prior** based on the dominant eigenvalue of a locally computed 3×3 Hermitian cross-spectral matrix. This makes the prior sensitive to the cross-channel frequency structure rather than just total spectral power.
 
+![이미지 스펙트럼 예시](https://github.com/bemoregt/ComfyUI_EigenQFT_SRSM/blob/main/ScrShot%2010.png)
+
 ---
 
 ## Motivation: Why Eigenvalues?
